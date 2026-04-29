@@ -64,15 +64,13 @@
 
         .nav-tabs a:hover { color: var(--gold); }
 
-        /* --- Heritage Header Overlay --- */
+        /* --- Heritage Header Overlay (Image Removed, Gradient Added) --- */
         header { 
             position: relative;
             text-align: center; 
             padding: 90px 20px 130px 20px; 
-            /* Deep Navy to Forest Green gradient over the Rutgers image */
-            background-image: linear-gradient(rgba(16, 28, 41, 0.8), rgba(30, 48, 39, 0.85)), url('Assets/rutgerssmf_cover.jpg');
-            background-size: cover;
-            background-position: center;
+            /* Rich gradient from Navy to Forest Green */
+            background: linear-gradient(135deg, var(--navy) 0%, var(--forest) 100%);
             color: var(--white);
             border-bottom: 5px solid var(--gold);
         }
